@@ -15,26 +15,38 @@
       <!--BEM 규칙 : .btn .btn__input .btn--color -->
       <div class="status-bar__column">
         <span>No Service</span>
-        <i class="fa-duotone fa-wifi"></i>
+        <i class="fas fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>100%</span>
-        <i class="fa-regular fa-battery-full"></i>
-        <i class="fa-light fa-bolt-lightning"></i>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
 
     <!-- nav>ul>li*4>a -->
 
-    <nav>
-      <ul>
-        <li><a href="friends.html">Friend</a></li>
-        <li><a href="#">Chats</a></li>
-        <li><a href="#">Search</a></li>
-        <li><a href="#">Find</a></li>
+    <nav class="nav nav--color">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="far fa-comment fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
       </ul>
     </nav>
     <script

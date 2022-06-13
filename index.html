@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--link:css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Talk</title>
+</head>
+<body>
+    <div class="status-bar">
+        <!--자식의 class명 또는 id명을 지을때 부모 id명 또는 class명 + '__자식명' 을 짓자-->
+        <!--BEM 이라는 규칙으로 id class를 왔다갔다 하지 말고 보통은 class로 사용하자-->
+        <!--BEM 규칙 : .btn .btn__input .btn--color -->
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-duotone fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-regular fa-battery-full"></i>
+            <i class="fa-light fa-bolt-lightning"></i>
+        </div>
+    </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">
+            Welcome to Kokoa Talk
+        </h1>
+        <p class="welcome-header__text">
+            If you have a Kokoa Account, log in with your email or phone number.
+        </p>
+    </header>
+    
+    <form>
+        <input type="text" placeholder="Email or phone number" />
+        <input type="email" placeholder="Password" />
+        <input type="submit" value="Log In"/>
+    </form>
+
+    <a href="#">Find Kokoa Account or Password</a>
+    
+    <script src="https://kit.fontawesome.com/d3b87b6455.js" crossorigin="anonymous"></script>
+</body>
+</html>

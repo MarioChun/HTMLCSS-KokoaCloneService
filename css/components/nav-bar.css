@@ -3,6 +3,7 @@
     bottom :0;
     width: 100%;
     padding: 20px 0px;
+    box-sizing: border-box;
     border-top:1px solid rgba(0,0,0,0.1);
 }
 
@@ -17,4 +18,31 @@
 
 .nav__link{
     color: #2e363e;
+    position: relative;
+}
+
+.nav__notification{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav__dot{
+    background-color: tomato;
+    display: flex;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position:absolute;
+    left:30px;
+    bottom:25px;
 }

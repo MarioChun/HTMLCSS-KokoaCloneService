@@ -1,0 +1,42 @@
+.find-icons{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+
+.find-icons__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* 사이즈 조정 가능 기존  fa-xs 같은걸 안해도 될듯 */
+.find-icons__icon i{
+    font-size: 35px;
+}
+
+.find-icons__icon span{
+    margin-top: 18px;
+}
+
+.recommended-friends{
+    margin:25px 0px;
+    padding: 25px 0px;
+    border-bottom: var(--main-border);
+    border-top: var(--main-border);
+}
+
+.recommended-friends__title{
+    font-size: 14px;
+    color: var(--grey);
+}
+
+.recommended-friends span{
+    display: block;
+    text-align: center;
+    margin:100px 0px;
+    font-size: 18px;
+    color: var(--grey);
+}
